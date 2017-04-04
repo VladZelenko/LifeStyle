@@ -1,0 +1,15 @@
+	#searchform {
+		input.head-serch {
+			padding-left: 10px;
+			width: 150px;
+			height: 30px;
+			color: $secondary_font_color;
+			font: 600 12px $primary_font;
+			text-transform: uppercase;
+			border: none;
+		}
+		button {
+			background: none;
+			border: none;
+		}
+	}

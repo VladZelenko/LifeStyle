@@ -1,0 +1,29 @@
+.site-header {
+	width: 100%;
+	background-color: $additional_color;
+	box-shadow: 3px 1px 3px #000000;
+	.head-search-form {
+		margin-top: 10px;
+		float: left;
+	}
+	.head-menu {float: right}
+}
+.nav {
+	display: flex;
+	align-items: center;
+}
+.nav li a,
+#touch-menu {
+	display: block;
+	padding: 10px 20px;
+	color: $secondary_font_color;
+	font: 700 14px/24px $primary_font;
+	text-transform: uppercase;
+}
+.nav li a:hover, #touch-menu:hover, .nav li:hover {
+	color: $accent_color;
+	text-decoration: none;
+	background-color: transparent;
+	transition: all .3s ease-in-out;
+}
+#touch-menu {display: none;}
